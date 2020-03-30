@@ -1,0 +1,50 @@
+{
+  "courses": [
+    {
+      "id": "01",
+      "title": "Mi titulo",
+      "teacher": "Mi profesor",
+      "description": "Una descripcióm",
+      "topic": "Programación",
+      "people": [
+        "01",
+        "02"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Mi titulo 2",
+      "teacher": "Mi profesor",
+      "description": "Una descripcióm",
+      "topic": "Programación",
+      "people": [
+        "02"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Mi titulo 3",
+      "teacher": "Mi profesor",
+      "description": "Una descripcióm",
+      "topic": "Programación"
+    },
+    {
+      "id": "_7HMzda"
+    },
+    {
+      "id": "TCZOV2i"
+    }
+  ],
+  "students": [
+    {
+      "id": "01",
+      "name": "Estudiante 01",
+      "email": "fili_96@gmail.com"
+    },
+    {
+      "id": "02",
+      "name": "Estudiante 2",
+      "email": "fili_95@gmail.com"
+    }
+  ]
+}
