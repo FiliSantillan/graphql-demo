@@ -29,10 +29,16 @@
       "topic": "Programación"
     },
     {
-      "id": "_7HMzda"
+      "title": "Curso número 04",
+      "description": "Este es el curso número 04",
+      "id": "fk6ut2n0k8f5ko8d"
     },
     {
-      "id": "TCZOV2i"
+      "id": "fk6ut2p2k8f5sst0",
+      "teacher": "Fili",
+      "topic": "",
+      "title": "Curso 05",
+      "description": "Curso 05"
     }
   ],
   "students": [
@@ -45,6 +51,21 @@
       "id": "02",
       "name": "Estudiante 2",
       "email": "fili_95@gmail.com"
+    },
+    {
+      "id": "fk6ut385k8f867jt",
+      "name": "Estudiante 03",
+      "email": "fili_94@gmail.com"
+    },
+    {
+      "name": "Estudiante 04",
+      "id": "fk6ut385k8f86r2e",
+      "email": "fili_93@gmail.com"
+    },
+    {
+      "id": "fk6ut385k8f86w8l",
+      "name": "Estudiante 05",
+      "email": "fili_92@gmail.com"
     }
   ]
 }

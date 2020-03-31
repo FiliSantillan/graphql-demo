@@ -32,7 +32,6 @@ input CourseInput {
 }
 
 input CourseEditInput {
-  id: ID
   title: String
   teacher: String
   description: String
@@ -40,13 +39,11 @@ input CourseEditInput {
 }
 
 input StudentInput {
-  id: ID!
   name: String!
   email: String!
 }
 
 input StudentEditInput {
-  id: ID
   name: String
   email: String
 }
@@ -55,11 +52,11 @@ type Mutation {
   "Crea un curso"
   createCourse(input: CourseInput!): Course
   "Edita un curso"
-  editCourse(_id: ID!, input: CourseEditInput!): Course
+  editCourse(id: ID!, input: CourseEditInput!): Course
   "Crea un estudiante"
   createStudent(input: StudentInput!): Student
   "Edita un estudiante"
-  editStudent(_id: ID!, input: StudentEditInput!): Student
+  editStudent(id: ID!, input: StudentEditInput!): Student
   "Agrega una persona a un curso"
   addPeople(courseID: ID!, personID: ID!): Course
 }
