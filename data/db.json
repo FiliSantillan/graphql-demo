@@ -19,6 +19,8 @@
       "description": "Una descripcióm",
       "topic": "Programación",
       "people": [
+        "02",
+        "fk6ut385k8f86w8l",
         "02"
       ]
     },
@@ -40,6 +42,14 @@
       "topic": "",
       "title": "Curso 05",
       "description": "Curso 05"
+    },
+    {
+      "id": "32681vc4k0k8t9vcvg",
+      "teacher": "Profesor n",
+      "topic": "Programación",
+      "title": "Mi título 06",
+      "description": "Curso de ejemplo 6",
+      "level": "beginner"
     }
   ],
   "students": [
@@ -67,6 +77,12 @@
       "id": "fk6ut385k8f86w8l",
       "name": "Estudiante 05",
       "email": "fili_92@gmail.com"
+    },
+    {
+      "id": "32681vc4wzk8tawnlf",
+      "name": "Monitor 01",
+      "email": "monitor1@gmail.com",
+      "phone": "5594939385"
     }
   ]
 }
