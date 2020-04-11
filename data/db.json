@@ -29,19 +29,22 @@
       "title": "Mi titulo 3",
       "teacher": "Mi profesor",
       "description": "Una descripcióm",
-      "topic": "Programación"
+      "topic": "Programación",
+      "people": []
     },
     {
       "title": "Curso número 04",
       "description": "Este es el curso número 04",
-      "id": "fk6ut2n0k8f5ko8d"
+      "id": "fk6ut2n0k8f5ko8d",
+      "people": []
     },
     {
       "id": "fk6ut2p2k8f5sst0",
       "teacher": "Fili",
       "topic": "",
       "title": "Curso 05",
-      "description": "Curso 05"
+      "description": "Curso 05",
+      "people": []
     },
     {
       "id": "32681vc4k0k8t9vcvg",
@@ -49,7 +52,18 @@
       "topic": "Programación",
       "title": "Mi título 06",
       "description": "Curso de ejemplo 6",
-      "level": "beginner"
+      "level": "beginner",
+      "people": [
+        "32681vc4wzk8tawnlf"
+      ]
+    },
+    {
+      "id": "ie3ldvk8ve8br1",
+      "teacher": "",
+      "topic": "",
+      "people": [],
+      "title": "Example title 0232",
+      "description": "Hello title 032320"
     }
   ],
   "students": [

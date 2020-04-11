@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.port || 3000;
 const isDev = process.env.NODE_ENV !== "production";
 
-// Definiendo el schema
+// Schema
 const typeDefs = readFileSync(
   join(__dirname, "lib", "schema.graphql"),
   "utf-8"
@@ -22,7 +22,7 @@ const schema = makeExecutableSchema({typeDefs, resolvers});
 
 app.use(cors())
 
-// Vamos a definir el middleware en un endpoint
+// Middleware
 app.use('/api', gqlMiddleware({
   schema: schema,
   rootValue: resolvers,

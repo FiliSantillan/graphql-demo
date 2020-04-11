@@ -1,4 +1,4 @@
-"Valida los tipos de nivel"
+"Validate level types"
 enum Level {
   beginner
   intermediate
@@ -38,15 +38,15 @@ type Monitor implements Person {
 }
 
 type Query {
-  "Devuelve todos los cursos"
+  "Returns all courses"
   getCourses: [Course]
-  "Devuelve un curso"
+  "Returns a course"
   getCourse(id: ID!): Course
-  "Devuelve todos los estudiantes"
+  "Returns all people"
   getPeople: [Person]
-  "Devuelve un estudiante"
+  "Returns a person"
   getPerson(id: ID!): Person
-  "Ejecuta una busqueda global"
+  "Run a global search"
   searchItems(keyword: String!) : [GlobalSearch]
 }
 
@@ -80,14 +80,14 @@ input PersonEditInput {
 }
 
 type Mutation {
-  "Crea un curso"
+  "Create a course"
   createCourse(input: CourseInput!): Course
-  "Edita un curso"
+  "Edit a course"
   editCourse(id: ID!, input: CourseEditInput!): Course
-  "Crea una persona"
+  "Create a person"
   createPerson(input: PersonInput!): Person
-  "Edita una persona"
+  "Edit a person"
   editPerson(id: ID!, input: PersonEditInput!): Person
-  "Agrega una persona a un curso"
+  "Add a person to a course"
   addPeople(courseID: ID!, personID: ID!): Course
 }
